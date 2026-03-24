@@ -1,0 +1,25 @@
+{
+  "backend": "onnxruntime_CUDAExecutionProvider",
+  "input_size": 518,
+  "warmup": 20,
+  "runs": 100,
+  "providers_available": [
+    "TensorrtExecutionProvider",
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "providers_active": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "metrics": {
+    "mean_ms": 47.429981362074614,
+    "std_ms": 0.5455895803871902,
+    "p50_ms": 47.40729043260217,
+    "p90_ms": 48.25000986456871,
+    "p95_ms": 48.39348662644625,
+    "min_ms": 46.422770246863365,
+    "max_ms": 48.6182626336813,
+    "fps": 21.083710583104043
+  }
+}

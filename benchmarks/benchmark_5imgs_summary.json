@@ -1,0 +1,20 @@
+{
+  "n_images": 5,
+  "query": "car . person . truck",
+  "total_ms": {
+    "mean": 1926.6,
+    "p50": 1930.6,
+    "p95": 1937.6
+  },
+  "depth_ms": {
+    "mean": 674.6
+  },
+  "gdino_ms": {
+    "mean": 850.1
+  },
+  "sam2_ms": {
+    "mean": 401.9
+  },
+  "mean_fps": 0.52,
+  "mean_detections": 3.6
+}

@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+*.so
+
+# Virtual environments
+.venv/
+.venv-mmpose/
+.local/
+
+# Model weights (too large - download instructions in README)
+weights/
+exports/onnx/
+exports/tensorrt/
+
+# Cloned model repos (install instructions in README)
+models/depth_anything_v2/
+models/GroundingDINO/
+models/sam2/
+models/mmpose-main/
+models/mmpose-main.zip
+models/mmpose.partial.*/
+
+# Datasets (too large)
+data/kitti/
+
+# Legacy / unrelated
+OpenPCDet/
+.cuda_fake_12_4/
+.claude/
+
+# Duplicate screenshots (originals in docs/)
+picture/
+
+# Gradio cache
+.gradio/
+
+# Large binary outputs
+*.ply
+*.npy
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log

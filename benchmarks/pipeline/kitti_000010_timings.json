@@ -1,0 +1,11 @@
+{
+  "image": "/data/ganyw/3D/data/demo_inputs/kitti_000010.png",
+  "query": "car | person | truck",
+  "n_detections": 21,
+  "timings_ms": {
+    "depth_ms": 873.8892618566751,
+    "gdino_ms": 2469.4233993068337,
+    "sam2_ms": 634.2434147372842,
+    "total_ms": 3977.556075900793
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "backend": "onnxruntime_TensorrtExecutionProvider",
+  "status": "failed",
+  "error": "Requested provider TensorrtExecutionProvider not active. Active providers=['CPUExecutionProvider']",
+  "providers_available": [
+    "TensorrtExecutionProvider",
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "providers_active": [
+    "CPUExecutionProvider"
+  ],
+  "requested_provider": "TensorrtExecutionProvider",
+  "trt_cache_dir": "/data/ganyw/3D/exports/tensorrt/depth_anything_v2_vits_518",
+  "cache_artifacts": [],
+  "ld_library_path": "/data/ganyw/3D/.venv/lib/python3.10/site-packages/cv2/../../lib64:/data/ganyw/3D/.venv/lib:"
+}

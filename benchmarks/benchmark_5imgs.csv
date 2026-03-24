@@ -1,0 +1,6 @@
+image,n_detections,depth_ms,gdino_ms,sam2_ms,total_ms,fps,phrases
+000000.png,1,693.0,857.3,387.5,1937.9,0.52,person
+000001.png,5,681.8,847.9,406.8,1936.5,0.52,truck | car
+000002.png,2,666.6,851.7,390.1,1908.5,0.52,truck | car
+000003.png,4,666.8,857.7,406.2,1930.6,0.52,truck | car
+000004.png,6,664.7,835.8,418.8,1919.3,0.52,truck | car | person | car truck
